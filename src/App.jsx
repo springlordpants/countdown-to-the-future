@@ -42,7 +42,6 @@ class App extends Component {
             Submit
           </Button>
         </Form>
-        <small>type in "month dd yyyy"</small>
       </div>
     )
   }
