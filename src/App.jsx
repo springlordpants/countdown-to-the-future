@@ -28,12 +28,17 @@ class App extends Component {
         </div>
         <Form inline className="Form">
           <FormControl
+            type="text"
             className="Deadline-Input"
-            input="text"
             placeholder="new date"
             onChange={(event) =>
               this.setState({ newDeadline: event.target.value })
             }
+            // onKeyPress={(event) => {
+            //   if (event.key === "Enter") {
+            //     this.changeDeadline()
+            //   }
+            // }}
           />
           <Button
             variant="outline-danger"
